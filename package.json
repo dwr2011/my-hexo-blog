@@ -1,0 +1,17 @@
+{
+  "name": "my-hexo-blog",
+  "version": "1.0.0",
+  "description": "Hexo 博客（dwr2011/my-hexo-blog）",
+  "scripts": {
+    "start": "hexo server",
+    "build": "hexo generate",
+    "deploy": "hexo deploy"
+  },
+  "dependencies": {
+    "hexo": "^6.4.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-renderer-marked": "^5.0.0"
+  }
+}

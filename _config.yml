@@ -1,0 +1,31 @@
+# Hexo 全局配置（中文）
+title: 我的 Hexo 博客
+subtitle: 技术 · 生活
+description: 在这里记录技术笔记与生活点滴
+author: dwr2011
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL（部署后可改为你的自定义域名）
+url: https://dwr2011.github.io
+root: /
+permalink: :year/:month/:day/:title/
+source_dir: source
+public_dir: public
+theme: butterfly
+
+# 菜单示例
+menu:
+  首页: /
+  归档: /archives
+  标签: /tags
+  关于: /about
+
+# 文章摘要
+auto_excerpt: true
+
+# 部署配置（如使用 hexo-deployer-git，可本地或 CI 使用）
+deploy:
+  type: git
+  repo: https://github.com/dwr2011/my-hexo-blog.git
+  branch: gh-pages
